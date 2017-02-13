@@ -1,9 +1,14 @@
-switch/case is like else/else if, but neater
+# switch/case
 
-ex: equiv of the command line prompt to acccept or decline
+is like else/else if, but neater
+
+
+*ex: equiv of the command line prompt to acccept or decline*
 
 else/else if would also require OR, like input == y or input == Y (too long!)
 
+
+```c++
 switch(input)
 {
   case 'y':
@@ -20,6 +25,6 @@ switch(input)
     cout << "wtf?\n";
     break; 
 }
-
+```
 
 break only takes us out of the switch thing, but not out of a cycle, if the switch is inside one
